@@ -6,31 +6,66 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprPers</sprite>
-    <sprite>sprites\sprPersD</sprite>
-    <sprite>sprites\sprPersI</sprite>
-    <sprite>sprites\sprNerd</sprite>
-    <sprite>sprites\sprBully</sprite>
-    <sprite>sprites\sprDeport</sprite>
+    <sprites name="sprsPersonaje">
+      <sprite>sprites\sprPersD</sprite>
+      <sprite>sprites\sprPersI</sprite>
+      <sprite>sprites\sprPers</sprite>
+    </sprites>
     <sprite>sprites\sprBalaPers</sprite>
     <sprite>sprites\sprBalaEnem</sprite>
+    <sprites name="sprsEnemigos">
+      <sprite>sprites\sprBully</sprite>
+      <sprite>sprites\sprDeport</sprite>
+      <sprite>sprites\sprNerd</sprite>
+    </sprites>
+    <sprites name="sprsArmas">
+      <sprite>sprites\sprArmaBas</sprite>
+      <sprite>sprites\sprArmaMed</sprite>
+      <sprite>sprites\sprArmaTop</sprite>
+    </sprites>
+    <sprites name="sprsShields">
+      <sprite>sprites\sprShieldBas</sprite>
+      <sprite>sprites\sprShieldMed</sprite>
+      <sprite>sprites\sprShieldTop</sprite>
+    </sprites>
+    <sprites name="sprsConsumibles">
+      <sprite>sprites\sprEnergiz</sprite>
+      <sprite>sprites\sprPapitas</sprite>
+    </sprites>
+    <sprite>sprites\sprite16</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\objInicio</object>
     <object>objects\objPers</object>
-    <object>objects\objNerd</object>
-    <object>objects\objBully</object>
-    <object>objects\objDeport</object>
-    <object>objects\objEnem</object>
     <object>objects\objBalaPers</object>
     <object>objects\objBalaEnem</object>
+    <objects name="objsEnemigos">
+      <object>objects\objNerd</object>
+      <object>objects\objDeport</object>
+      <object>objects\objBully</object>
+      <object>objects\objEnem</object>
+    </objects>
     <objects name="objsCtrlEnem">
       <object>objects\objCtrlEnemN1</object>
       <object>objects\objCtrlEnemN2</object>
       <object>objects\objCtrlEnemN3</object>
     </objects>
-    <object>objects\objInicio</object>
+    <objects name="objsArmas">
+      <object>objects\objArmaBas</object>
+      <object>objects\objArmaMed</object>
+      <object>objects\objArmaTop</object>
+    </objects>
+    <objects name="objsShields">
+      <object>objects\objShieldBas</object>
+      <object>objects\objShieldMed</object>
+      <object>objects\objShieldTop</object>
+    </objects>
+    <objects name="objsConsumibles">
+      <object>objects\objEnergiz</object>
+      <object>objects\objPapitas</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Inicio</room>

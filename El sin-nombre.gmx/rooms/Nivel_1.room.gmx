@@ -55,6 +55,14 @@ global.Nivel1 = true;</code>
   <instances>
     <instance objName="objPers" x="64" y="288" name="inst_773DF8A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCtrlEnemN1" x="32" y="64" name="inst_1B0EAAFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objArmaBas" x="224" y="32" name="inst_6104A70E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objArmaTop" x="640" y="0" name="inst_DB87F823" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objArmaMed" x="480" y="64" name="inst_3F2A6477" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objShieldBas" x="128" y="32" name="inst_2A67A4F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objShieldMed" x="768" y="64" name="inst_5895BB79" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objShieldTop" x="928" y="32" name="inst_0A618A55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objEnergiz" x="384" y="352" name="inst_4AE7DB41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objPapitas" x="512" y="352" name="inst_79D004E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
