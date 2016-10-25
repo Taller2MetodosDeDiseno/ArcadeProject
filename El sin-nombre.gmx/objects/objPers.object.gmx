@@ -305,8 +305,6 @@ instance_create(x,y,objBalaPers)
 
 // Power-Ups de Ataque.
 
-show_debug_message(powerdmg)
-
 if (place_meeting(x,y,objArmaBas)){
 xtradmg = 3;
 alarm[1] = 450;

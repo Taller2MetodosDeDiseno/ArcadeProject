@@ -43,6 +43,15 @@ N1O2b = false;
 N1O2c = false;
 N1O2d = false;
 
+N1O3a = false;
+
+N1O4a = false;
+N1O4b = false;
+
+N1O5a = false;
+N1O5b = false;
+
+
 </string>
           </argument>
         </arguments>
@@ -82,7 +91,6 @@ if (N1O1a){
 if (N1O1b){
     for(ok = true; done = false; done = true){
         instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
     }
     
     if(instance_number(objNerd) = 0){
@@ -95,18 +103,11 @@ if (N1O1b){
 if (N1O1c){
     for(ok = true; done = false; done = true){
         instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
     }
     
     if(instance_number(objNerd) = 0){
         if (show_question("¡Has superado la Oleada 1!
         ¿Continúas?")){
-        show_message("Esta ha sido la Beta 1.0.0 del juego
-        ¡Gracias!");
-        game_end();
         N1O1c = false;
         N1O2a = true               
         }
@@ -116,7 +117,155 @@ if (N1O1c){
     }
 }
 
+if (N1O2a){
+    for(ok = true; done = false; done = true){
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd)
+    }
+    
+    if(instance_number(objNerd) = 0){
+        N1O2a = false;
+        N1O2b = true
+        done = false;
+    }
+}
 
+if (N1O2b){
+    for(ok = true; done = false; done = true){
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd)
+    }
+    
+    if(instance_number(objNerd) = 0){
+        N1O2b = false;
+        N1O2c = true
+        done = false;
+    }
+}
+
+if (N1O2c){
+    for(ok = true; done = false; done = true){
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd)
+    }
+    
+    if(instance_number(objNerd) = 0){
+        N1O2c = false;
+        N1O2d = true
+        done = false;
+    }
+}
+
+if (N1O2d){
+    for(ok = true; done = false; done = true){
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd)
+    }
+    
+    if(instance_number(objNerd) = 0){
+        if (show_question("¡Has superado la Oleada 2!
+        ¿Continúas?")){
+        N1O2d = false;
+        N1O3a = true               
+        }
+        else{
+        game_end();
+        }
+    }
+}
+
+if (N1O3a){
+    for(ok = true; done = false; done = true){
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd)
+    }
+    
+    if(instance_number(objNerd) = 0){
+        if (show_question("¡Has superado la Oleada 3!
+        ¿Continúas?")){
+        N1O3a = false;
+        N1O4a = true               
+        }
+        else{
+        game_end();
+        }
+    }
+}
+
+if (N1O4a){
+    for(ok = true; done = false; done = true){
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd)
+    }
+    
+    if(instance_number(objNerd) = 0){
+        N1O4a = false;
+        N1O2b = true
+        done = false;
+    }
+}
+
+if (N1O4b){
+    for(ok = true; done = false; done = true){
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd);
+    }
+    
+    if(instance_number(objNerd) = 0){
+        if (show_question("¡Has superado la Oleada 4!
+        ¿Continúas?")){
+        N1O4b = false;
+        N1O5a = true               
+        }
+        else{
+        game_end();
+        }
+    }
+}
+
+if (N1O5a){
+    for(ok = true; done = false; done = true){
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd)
+    }
+    
+    if(instance_number(objNerd) = 0){
+        N1O5a = false;
+        N1O5b = true
+        done = false;
+    }
+}
+
+if (N1O5b){
+    for(ok = true; done = false; done = true){
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerd)
+    }
+    
+    if(instance_number(objNerd) = 0){
+        if (show_question("¡Has superado la Oleada 5!
+        ¿Continúas?")){
+        show_message("¡Prepárate para vértelas con El Profe!");
+        N1O5b = false;
+        room_goto_next();               
+        }
+        else{
+        game_end();
+        }
+    }
+}
 </string>
           </argument>
         </arguments>

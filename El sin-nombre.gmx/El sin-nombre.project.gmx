@@ -14,9 +14,21 @@
     <sprite>sprites\sprBalaPers</sprite>
     <sprite>sprites\sprBalaEnem</sprite>
     <sprites name="sprsEnemigos">
-      <sprite>sprites\sprBully</sprite>
-      <sprite>sprites\sprDeport</sprite>
-      <sprite>sprites\sprNerd</sprite>
+      <sprites name="sprsBully">
+        <sprite>sprites\sprBully</sprite>
+        <sprite>sprites\sprBullyAtq</sprite>
+        <sprite>sprites\sprBullyDisp</sprite>
+      </sprites>
+      <sprites name="sprsNerd">
+        <sprite>sprites\sprNerd</sprite>
+        <sprite>sprites\sprNerdAtq</sprite>
+        <sprite>sprites\sprNerdDisp</sprite>
+      </sprites>
+      <sprites name="sprsDeport">
+        <sprite>sprites\sprDeport</sprite>
+        <sprite>sprites\sprDeportAtq</sprite>
+        <sprite>sprites\sprDeportDisp</sprite>
+      </sprites>
     </sprites>
     <sprites name="sprsArmas">
       <sprite>sprites\sprArmaBas</sprite>
@@ -32,7 +44,6 @@
       <sprite>sprites\sprEnergiz</sprite>
       <sprite>sprites\sprPapitas</sprite>
     </sprites>
-    <sprite>sprites\sprite16</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
