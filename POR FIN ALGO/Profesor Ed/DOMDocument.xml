@@ -1,0 +1,1430 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="502" height="500" currentTimeline="1" xflVersion="2.6" creatorInfo="Adobe Flash Professional CC" platform="Windows" versionInfo="Saved by Adobe Flash Windows 15.0 build 173" majorVersion="15" buildNumber="173" rulerVisible="true" objectsSnapTo="false" viewAngle3D="50.8281271934128" nextSceneIdentifier="2" viewOptionsPasteBoardView="false" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+     <symbols>
+          <Include href="Brazo D.xml" itemIcon="1" loadImmediate="false" itemID="580d2251-0000003b" lastModified="1477255761"/>
+          <Include href="Brazo I.xml" itemIcon="1" loadImmediate="false" itemID="580d2133-0000000d" lastModified="1477255475"/>
+          <Include href="Brazo Iz.xml" itemIcon="1" loadImmediate="false" itemID="580d21a2-00000014" lastModified="1477255586"/>
+          <Include href="Cabeza.xml" itemIcon="1" loadImmediate="false" itemID="580d21e2-0000001e" lastModified="1477255650"/>
+          <Include href="Hombro D.xml" itemIcon="1" loadImmediate="false" itemID="580d2247-00000037" lastModified="1477255751"/>
+          <Include href="Hombro I.xml" itemIcon="1" loadImmediate="false" itemID="580d2130-0000000c" lastModified="1477255472"/>
+          <Include href="Hombro Iz.xml" itemIcon="1" loadImmediate="false" itemID="580d21d2-00000019" lastModified="1477255634"/>
+          <Include href="Interpolación 1.xml" itemIcon="1" loadImmediate="false" itemID="580d2355-00000048" lastModified="1477256021"/>
+          <Include href="Interpolación 2.xml" itemIcon="1" loadImmediate="false" itemID="580d2355-0000004e" lastModified="1477258279"/>
+          <Include href="Interpolación 3.xml" itemIcon="1" loadImmediate="false" itemID="580d2355-00000053" lastModified="1477256021"/>
+          <Include href="Interpolación 4.xml" itemIcon="1" loadImmediate="false" itemID="580d2355-00000059" lastModified="1477256021"/>
+          <Include href="Interpolación 5.xml" itemIcon="1" loadImmediate="false" itemID="580d2355-0000005e" lastModified="1477256021"/>
+          <Include href="Interpolación 6.xml" itemIcon="1" loadImmediate="false" itemID="580d2388-00000067" lastModified="1477256072"/>
+          <Include href="Interpolación 7.xml" itemIcon="1" loadImmediate="false" itemID="580d2388-0000006d" lastModified="1477256072"/>
+          <Include href="Interpolación 8.xml" itemIcon="1" loadImmediate="false" itemID="580d2388-00000073" lastModified="1477256072"/>
+          <Include href="Interpolación 9.xml" itemIcon="1" loadImmediate="false" itemID="580d2388-00000079" lastModified="1477256072"/>
+          <Include href="Mano D.xml" itemIcon="1" loadImmediate="false" itemID="580d2268-00000043" lastModified="1477255784"/>
+          <Include href="Mano I.xml" itemIcon="1" loadImmediate="false" itemID="580d212d-0000000b" lastModified="1477255469"/>
+          <Include href="Mano Iz.xml" itemIcon="1" loadImmediate="false" itemID="580d217e-0000000f" lastModified="1477255551"/>
+          <Include href="Muslo D.xml" itemIcon="1" loadImmediate="false" itemID="580d223c-00000033" lastModified="1477255740"/>
+          <Include href="Muslo I.xml" itemIcon="1" loadImmediate="false" itemID="580d21e9-00000022" lastModified="1477255657"/>
+          <Include href="Pierna D.xml" itemIcon="1" loadImmediate="false" itemID="580d222f-0000002f" lastModified="1477256323"/>
+          <Include href="Pierna I.xml" itemIcon="1" loadImmediate="false" itemID="580d21fa-00000026" lastModified="1477256163"/>
+          <Include href="Torso.xml" itemIcon="1" loadImmediate="false" itemID="58085645-000000a8" lastModified="1476941381"/>
+          <Include href="Torsoo.xml" itemIcon="1" loadImmediate="false" itemID="580d221d-0000002a" lastModified="1477255709"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Escena 1">
+               <layers>
+                    <DOMLayer name="Antebrazo i" color="#FF4FFF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 6" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="423.05" ty="240.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 6" symbolType="graphic" centerPoint3DX="392.6" centerPoint3DY="259.05" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.946670532226563" b="0.322174072265625" c="-0.322174072265625" d="0.946670532226563" tx="392.95" ty="258.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-9.45" y="-3.6"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="5" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 6" symbolType="graphic" centerPoint3DX="348.7" centerPoint3DY="284" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.74267578125" b="0.669647216796875" c="-0.669647216796875" d="0.74267578125" tx="348.9" ty="284"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-17.05" y="-5.15"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 6" symbolType="graphic" centerPoint3DX="407.6" centerPoint3DY="253.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.979049682617188" b="0.200424194335938" c="-0.200424194335938" d="0.979049682617188" tx="407.95" ty="253.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-9.5" y="-3.55"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="11" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 6" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="423.05" ty="240.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Mano I" color="#808080" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 8" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="289.15" ty="316.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 8" symbolType="graphic" centerPoint3DX="236.85" centerPoint3DY="288.4" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.761093139648438" b="0.648635864257813" c="-0.648635864257813" d="0.761093139648438" tx="237.1" ty="288.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="5" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 8" symbolType="graphic" centerPoint3DX="208.1" centerPoint3DY="256.45" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.698654174804688" b="0.715438842773438" c="-0.715438842773438" d="0.698654174804688" tx="208.35" ty="256.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-5.55" y="1.95"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 8" symbolType="graphic" centerPoint3DX="256.4" centerPoint3DY="299.25" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.902984619140625" b="0.426666259765625" c="-0.426666259765625" d="0.902984619140625" tx="256.55" ty="299"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="11" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 8" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="289.15" ty="316.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Hombro i" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 1" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="559.7" ty="176.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 1" symbolType="graphic" centerPoint3DX="550.55" centerPoint3DY="222.45" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.968490600585938" b="0.249008178710938" c="-0.249008178710938" d="0.968490600585938" tx="550.85" ty="222.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="5" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 1" symbolType="graphic" centerPoint3DX="525.65" centerPoint3DY="272.25" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.899627685546875" b="0.436630249023438" c="-0.436630249023438" d="0.899627685546875" tx="526.05" ty="271.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 1" symbolType="graphic" centerPoint3DX="553.85" centerPoint3DY="205.3" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.987167358398438" b="0.156478881835938" c="-0.156478881835938" d="0.987167358398438" tx="554.2" ty="205.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="11" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 1" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="559.7" ty="176.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Cabeza" color="#669900" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 2" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="243" ty="183"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="5" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 2" symbolType="graphic" centerPoint3DX="241.15" centerPoint3DY="131.55" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="244.3" ty="169.95"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="11" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 2" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="243" ty="183"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Muslo I" color="#669900" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Muslo I" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="314.55" ty="319.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-2" y="-31.25"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Muslo I" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.988449096679688" b="-0.15155029296875" c="0.15155029296875" d="0.988449096679688" tx="310.95" ty="315"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-2" y="-31.25"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Muslo I" symbolType="graphic" centerPoint3DX="309.25" centerPoint3DY="317.6" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.993072509765625" b="-0.11749267578125" c="0.11749267578125" d="0.993072509765625" tx="309.1" ty="317.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-2.05" y="-31.2"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMShape isDrawingObject="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="!6709 7328[6948 7328 7108 7293!7108 7293[7188 7276 7223 7258!7223 7258[7255 7258 7258 7267!7258 7267[7258 7269 7263 7273!7263 7273[7267 7277 7267 7296!7267 7296[7267 7326 7189 7359!7189 7359[7097 7398 6974 7398!6974 7398[6671 7398 6607
+ 7381!6607 7381[6462 7342 6379 7161!6379 7161|6383 7141!6383 7141[6413 7137 6441 7165!6441 7165[6457 7182 6494 7230!6494 7230[6576 7328 6709 7328"/>
+                                                  <Edge cubics="!6709 7328(;7093,7328 7218,7258 7223,7258q6709 7328Q6948 7328q7108 7293Q7188 7276q7223 7258);"/>
+                                                  <Edge cubics="!7223 7258(;7255,7258 7258,7267 7258,7267q7223 7258Q7255 7258q7258 7267);"/>
+                                                  <Edge cubics="!7258 7267(;7258,7276 7267,7263 7267,7296q7258 7267Q7258 7269q7263 7273Q7267 7277q7267 7296);"/>
+                                                  <Edge cubics="!7267 7296(;7267,7328 7156,7398 6974,7398q7267 7296Q7267 7326q7189 7359Q7097 7398q6974 7398);"/>
+                                                  <Edge cubics="!6974 7398(;6664,7398 6503,7431 6379,7161q6974 7398Q6671 7398q6607 7381Q6462 7342q6379 7161);"/>
+                                                  <Edge cubics="!6379 7161(;6379,7161 6383,7141 6383,7141q6379 7161 6383 7141);"/>
+                                                  <Edge cubics="!6383 7141(6383,7141;6477,7128 6475,7328 6709,7328q6383 7141Q6413 7137q6441 7165Q6457 7182q6494 7230Q6576 7328q6709 7328)6709,7328;"/>
+                                             </edges>
+                                        </DOMShape>
+                                        <DOMShape isDrawingObject="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#FFA167"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="
+!6737 7239[6740 7239 6805 7214!6805 7214[6883 7189 6942 7189!6942 7189[6987 7189 7008 7229!7008 7229[7021 7252 7021 7271!7021 7271[7021 7307 6973 7325!6973 7325[6917 7346 6787 7346!6787 7346[6610 7346 6525 7271!6525 7271[6472 7224 6472
+ 7180!6472 7180[6472 7105 6497 7098!6497 7098[6516 7093 6561 7129!6561 7129[6587 7149 6647 7199!6647 7199[6700 7239 6737 7239"/>
+                                                  <Edge cubics="!6737 7239(;6742,7239 6846,7189 6942,7189q6737 7239Q6740 7239q6805 7214Q6883 7189q6942 7189);"/>
+                                                  <Edge cubics="!6942 7189(;7013,7189 7021,7267 7021,7271q6942 7189Q6987 7189q7008 7229Q7021 7252q7021 7271);"/>
+                                                  <Edge cubics="!7021 7271(;7021,7315 6971,7346 6787,7346q7021 7271Q7021 7307q6973 7325Q6917 7346q6787 7346);"/>
+                                                  <Edge cubics="!6787 7346(;6509,7346 6472,7202 6472,7180q6787 7346Q6610 7346q6525 7271Q6472 7224q6472 7180);"/>
+                                                  <Edge cubics="!6472 7180(;6472,6964 6621,7239 6737,7239q6472 7180Q6472 7105q6497 7098Q6516 7093q6561 7129Q6587 7149q6647 7199Q6700 7239q6737 7239);"/>
+                                             </edges>
+                                        </DOMShape>
+                                        <DOMShape isDrawingObject="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#FFA167"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="
+!7268 7216[7268 7243 7178 7295!7178 7295[7087 7349 7034 7349!7034 7349[7014 7349 6996 7345!6996 7345|6982 7341!6982 7341[6982 7340 6978 7336!6978 7336[6974 7332 6974 7312!6974 7312[6974 7241 7121 7186!7121 7186[7268 7132 7268 7216"/>
+                                                  <Edge cubics="!7268 7216(;7268,7250 7107,7349 7034,7349q7268 7216Q7268 7243q7178 7295Q7087 7349q7034 7349);"/>
+                                                  <Edge cubics="!7034 7349(;7002,7349 6982,7341 6982,7341q7034 7349Q7014 7349q6996 7345Q6982 7341q6982 7341);"/>
+                                                  <Edge cubics="!6982 7341(;6982,7332 6974,7345 6974,7312q6982 7341Q6982 7340q6978 7336Q6974 7332q6974 7312);"/>
+                                                  <Edge cubics="!6974 7312(6974,7312;6974,7221 7268,7099 7268,7216q6974 7312Q6974 7241q7121 7186Q7268 7132q7268 7216)7268,7216;"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Muslo I" symbolType="graphic" centerPoint3DX="312.8" centerPoint3DY="318.85" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.999237060546875" b="-0.035980224609375" c="0.035980224609375" d="0.999237060546875" tx="312.65" ty="318.75"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-2.05" y="-31.2"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Muslo I" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="314.55" ty="319.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-2" y="-31.25"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="8" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Muslo I" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="314.55" ty="319.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-2" y="-31.25"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="10" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Muslo I" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="314.55" ty="319.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="-2" y="-31.25"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Pierna I" color="#FF4F4F" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Pierna I" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="319.95" ty="397.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="18.2" y="-34.3"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Pierna I" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.281173706054688" b="-0.959640502929688" c="0.959640502929688" d="0.281173706054688" tx="371.85" ty="379.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="18.2" y="-34.3"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMShape isDrawingObject="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="
+!6921 7397|6925 7405!6925 7405[6918 7420 6866 7420!6866 7420[6658 7420 6509 7292!6509 7292[6394 7193 6389 7119!6389 7119[6423 7108 6460 7180!6460 7180[6503 7262 6525 7269!6525 7269[6544 7282 6725 7337!6725 7337[6817 7365 6921 7397"/>
+                                                  <Edge cubics="!6921 7397(;6921,7397 6925,7405 6925,7405p6921 7397q6925 7405);"/>
+                                                  <Edge cubics="!6925 7405(;6921,7414 6894,7420 6866,7420q6925 7405Q6918 7420q6866 7420);"/>
+                                                  <Edge cubics="!6866 7420(;6547,7420 6393,7180 6389,7119q6866 7420Q6658 7420q6509 7292Q6394 7193q6389 7119);"/>
+                                                  <Edge cubics="!6389 7119(;6451,7099 6472,7251 6525,7269q6389 7119Q6423 7108q6460 7180Q6503 7262q6525 7269);"/>
+                                                  <Edge cubics="!6525 7269(;6557,7290 6894,7387 6921,7397q6525 7269Q6544 7282q6725 7337Q6817 7365q6921 7397);"/>
+                                             </edges>
+                                        </DOMShape>
+                                        <DOMShape isDrawingObject="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="
+!6705 7330|6710 7338!6710 7338[6685 7360 6642 7360!6642 7360[6531 7360 6458 7289!6458 7289[6400 7233 6400 7184!6400 7184[6400 7125 6419 7111!6419 7111[6442 7095 6472 7200!6472 7200[6486 7241 6554 7271!6554 7271[6595 7290 6705 7330"/>
+                                                  <Edge cubics="!6705 7330(;6705,7330 6710,7338 6710,7338q6705 7330 6710 7338);"/>
+                                                  <Edge cubics="!6710 7338(;6694,7352 6670,7360 6642,7360q6710 7338Q6685 7360q6642 7360);"/>
+                                                  <Edge cubics="!6642 7360(;6473,7360 6400,7229 6400,7184q6642 7360Q6531 7360q6458 7289Q6400 7233q6400 7184);"/>
+                                                  <Edge cubics="!6400 7184(;6400,7128 6426,7041 6472,7200q6400 7184Q6400 7125q6419 7111Q6442 7095q6472 7200);"/>
+                                                  <Edge cubics="!6472 7200(;6494,7265 6591,7282 6705,7330q6472 7200Q6486 7241q6554 7271Q6595 7290q6705 7330);"/>
+                                             </edges>
+                                        </DOMShape>
+                                        <DOMShape isDrawingObject="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="
+!10577 6554[10577 6580 10561 6603!10561 6603[10540 6633 10502 6633!10502 6633[10454 6633 10436 6596!10436 6596[10428 6558 10428 6556!10428 6556[10428 6483 10503 6483!10503 6483[10577 6484 10577 6554"/>
+                                                  <Edge cubics="!10577 6554(;10577,6578 10560,6633 10502,6633q10577 6554Q10577 6580q10561 6603Q10540 6633q10502 6633);"/>
+                                                  <Edge cubics="!10502 6633(;10425,6633 10428,6560 10428,6556q10502 6633Q10454 6633q10436 6596Q10428 6558q10428 6556);"/>
+                                                  <Edge cubics="!10428 6556(;10428,6458 10577,6461 10577,6554q10428 6556Q10428 6483q10503 6483Q10577 6484q10577 6554);"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Pierna I" symbolType="graphic" centerPoint3DX="386.05" centerPoint3DY="365.3" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="-0.02386474609375" b="-0.99969482421875" c="0.99969482421875" d="-0.02386474609375" tx="386.1" ty="365"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="18.2" y="-34.35"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMShape isDrawingObject="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="
+!6839 7306[6947 7306 7123 7278!7123 7278[7211 7263 7281 7249!7281 7249[7321 7249 7351 7267!7351 7267|7359 7286!7359 7286[7295 7327 7177 7353!7177 7353[7032 7385 6834 7385!6834 7385[6567 7385 6455 7261!6455 7261[6420 7222 6403 7174!6403
+ 7174[6393 7131 6392 7128!6392 7128[6420 7113 6447 7136!6447 7136[6464 7150 6510 7199!6510 7199[6626 7306 6839 7306"/>
+                                                  <Edge cubics="!6839 7306(;7013,7306 7275,7249 7281,7249q6839 7306Q6947 7306q7123 7278Q7211 7263q7281 7249);"/>
+                                                  <Edge cubics="!7281 7249(;7314,7249 7336,7258 7351,7267q7281 7249Q7321 7249q7351 7267);"/>
+                                                  <Edge cubics="!7351 7267(;7351,7267 7359,7286 7359,7286q7351 7267 7359 7286);"/>
+                                                  <Edge cubics="!7359 7286(;7286,7333 7122,7385 6834,7385q7359 7286Q7295 7327q7177 7353Q7032 7385q6834 7385);"/>
+                                                  <Edge cubics="!6834 7385(;6409,7385 6396,7141 6392,7128q6834 7385Q6567 7385q6455 7261Q6420 7222q6403 7174Q6393 7131q6392 7128);"/>
+                                                  <Edge cubics="!6392 7128(;6480,7080 6470,7306 6839,7306q6392 7128Q6420 7113q6447 7136Q6464 7150q6510 7199Q6626 7306q6839 7306);"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Pierna I" symbolType="graphic" centerPoint3DX="343.95" centerPoint3DY="396.65" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.861709594726563" b="-0.504531860351563" c="0.504531860351563" d="0.861709594726563" tx="344.2" ty="396.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="18.2" y="-34.3"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Pierna I" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="319.95" ty="397.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="18.2" y="-34.3"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="8" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Pierna I" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="319.95" ty="397.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="18.2" y="-34.3"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="10" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Pierna I" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="319.95" ty="397.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="18.2" y="-34.3"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Torso" color="#FF4F4F" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 3" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="384.75" ty="191.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="5" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 3" symbolType="graphic" centerPoint3DX="384.75" centerPoint3DY="167.3" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="384.75" ty="167.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" duration="4" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 3" symbolType="graphic" centerPoint3DX="384.75" centerPoint3DY="184.3" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="384.75" ty="184.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="11" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 3" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="384.75" ty="191.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Muslo D" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Muslo D" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="244.5" ty="315.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Muslo D" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="244.5" ty="315.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Muslo D" symbolType="graphic" centerPoint3DX="244.5" centerPoint3DY="315.05" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="244.5" ty="315.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Muslo D" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="244.5" ty="315.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                        <DOMShape isDrawingObject="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="
+!4346 6974[4346 7070 4491 7158!4491 7158[4577 7211 4771 7286!4771 7286|4777 7307!4777 7307[4771 7320 4765 7324!4765 7324[4755 7332 4733 7332!4733 7332[4614 7332 4461 7215!4461 7215[4316 7104 4316 7039!4316 7039[4316 6984 4346 6974"/>
+                                                  <Edge cubics="!4346 6974(4346,6974;4346,7119 4590,7216 4771,7286q4346 6974Q4346 7070q4491 7158Q4577 7211q4771 7286)4771,7286;"/>
+                                                  <Edge cubics="!4771 7286(;4771,7286 4777,7307 4777,7307q4771 7286 4777 7307);"/>
+                                                  <Edge cubics="!4777 7307(;4771,7319 4766,7332 4733,7332q4777 7307Q4771 7320q4765 7324Q4755 7332q4733 7332);"/>
+                                                  <Edge cubics="!4733 7332(;4563,7332 4316,7117 4316,7039q4733 7332Q4614 7332q4461 7215Q4316 7104q4316 7039);"/>
+                                                  <Edge cubics="!4316 7039(;4316,7007 4325,6981 4346,6974q4316 7039Q4316 6984q4346 6974);"/>
+                                             </edges>
+                                        </DOMShape>
+                                        <DOMShape isDrawingObject="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#CE8253"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="
+!4546 7039[4548 7037 4553 6984!4553 6984[4556 6984 4563 6976!4563 6976[4574 6968 4593 6968!4593 6968[4610 6968 4680 7047!4680 7047[4755 7131 4780 7141!4780 7141[4802 7150 5112 7145!5112 7145[5411 7154 5411 7236!5411 7236[5411 7251 5369
+ 7281!5369 7281|4837 7281!4837 7281[4792 7284 4759 7284!4759 7284[4601 7284 4493 7155!4493 7155[4458 7114 4434 7065!4434 7065[4416 7029 4416 7023!4416 7023[4416 6960 4452 6952!4452 6952[4493 6943 4546 7039"/>
+                                                  <Edge cubics="!4546 7039(;4550,7034 4550,7013 4553,6984q4546 7039Q4548 7037q4553 6984);"/>
+                                                  <Edge cubics="!4553 6984(4553,6984;4559,6984 4561,6968 4593,6968q4553 6984Q4556 6984q4563 6976Q4574 6968q4593 6968)4593,6968;"/>
+                                                  <Edge cubics="!4593 6968(4593,6968;4626,6968 4730,7120 4780,7141q4593 6968Q4610 6968q4680 7047Q4755 7131q4780 7141)4780,7141;"/>
+                                                  <Edge cubics="!4780 7141(4780,7141;4823,7158 5411,7102 5411,7236q4780 7141Q4802 7150q5112 7145Q5411 7154q5411 7236)5411,7236;"/>
+                                                  <Edge cubics="!5411 7236(5411,7236;5411,7242 5398,7260 5369,7281q5411 7236Q5411 7251q5369 7281);"/>
+                                                  <Edge cubics="!5369 7281(;5369,7281 4837,7281 4837,7281q5369 7281 4837 7281);"/>
+                                                  <Edge cubics="!4837 7281(;4837,7281 4792,7284 4759,7284q4837 7281Q4792 7284q4759 7284);"/>
+                                                  <Edge cubics="!4759 7284(;4506,7284 4416,7026 4416,7023q4759 7284Q4601 7284q4493 7155Q4458 7114q4434 7065Q4416 7029q4416 7023);"/>
+                                                  <Edge cubics="!4416 7023(4416,7023;4416,6953 4468,6898 4546,7039q4416 7023Q4416 6960q4452 6952Q4493 6943q4546 7039)4546,7039;"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="8" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Muslo D" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="244.5" ty="315.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                        <DOMShape isDrawingObject="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="
+!4346 6974[4346 7070 4491 7158!4491 7158[4577 7211 4771 7286!4771 7286|4777 7307!4777 7307[4771 7320 4765 7324!4765 7324[4755 7332 4733 7332!4733 7332[4614 7332 4461 7215!4461 7215[4316 7104 4316 7039!4316 7039[4316 6984 4346 6974"/>
+                                                  <Edge cubics="!4346 6974(4346,6974;4346,7119 4590,7216 4771,7286q4346 6974Q4346 7070q4491 7158Q4577 7211q4771 7286)4771,7286;"/>
+                                                  <Edge cubics="!4771 7286(;4771,7286 4777,7307 4777,7307q4771 7286 4777 7307);"/>
+                                                  <Edge cubics="!4777 7307(;4771,7319 4766,7332 4733,7332q4777 7307Q4771 7320q4765 7324Q4755 7332q4733 7332);"/>
+                                                  <Edge cubics="!4733 7332(;4563,7332 4316,7117 4316,7039q4733 7332Q4614 7332q4461 7215Q4316 7104q4316 7039);"/>
+                                                  <Edge cubics="!4316 7039(;4316,7007 4325,6981 4346,6974q4316 7039Q4316 6984q4346 6974);"/>
+                                             </edges>
+                                        </DOMShape>
+                                        <DOMShape selected="true" isDrawingObject="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#CE8253"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="
+!4546 7039[4548 7037 4553 6984!4553 6984[4556 6984 4563 6976!4563 6976[4574 6968 4593 6968!4593 6968[4610 6968 4680 7047!4680 7047[4755 7131 4780 7141!4780 7141[4802 7150 5112 7145!5112 7145[5411 7154 5411 7236!5411 7236[5411 7251 5369
+ 7281!5369 7281|4837 7281!4837 7281[4792 7284 4759 7284!4759 7284[4601 7284 4493 7155!4493 7155[4458 7114 4434 7065!4434 7065[4416 7029 4416 7023!4416 7023[4416 6960 4452 6952!4452 6952[4493 6943 4546 7039"/>
+                                                  <Edge cubics="!4546 7039(;4550,7034 4550,7013 4553,6984q4546 7039Q4548 7037q4553 6984);"/>
+                                                  <Edge cubics="!4553 6984(4553,6984;4559,6984 4561,6968 4593,6968q4553 6984Q4556 6984q4563 6976Q4574 6968q4593 6968)4593,6968;"/>
+                                                  <Edge cubics="!4593 6968(4593,6968;4626,6968 4730,7120 4780,7141q4593 6968Q4610 6968q4680 7047Q4755 7131q4780 7141)4780,7141;"/>
+                                                  <Edge cubics="!4780 7141(4780,7141;4823,7158 5411,7102 5411,7236q4780 7141Q4802 7150q5112 7145Q5411 7154q5411 7236)5411,7236;"/>
+                                                  <Edge cubics="!5411 7236(5411,7236;5411,7242 5398,7260 5369,7281q5411 7236Q5411 7251q5369 7281);"/>
+                                                  <Edge cubics="!5369 7281(;5369,7281 4837,7281 4837,7281q5369 7281 4837 7281);"/>
+                                                  <Edge cubics="!4837 7281(;4837,7281 4792,7284 4759,7284q4837 7281Q4792 7284q4759 7284);"/>
+                                                  <Edge cubics="!4759 7284(;4506,7284 4416,7026 4416,7023q4759 7284Q4601 7284q4493 7155Q4458 7114q4434 7065Q4416 7029q4416 7023);"/>
+                                                  <Edge cubics="!4416 7023(4416,7023;4416,6953 4468,6898 4546,7039q4416 7023Q4416 6960q4452 6952Q4493 6943q4546 7039)4546,7039;"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="10" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Muslo D" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="244.5" ty="315.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Pierna D" color="#FF4F4F" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Pierna D" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="216.9" ty="393.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="18.2" y="-38.35"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Pierna D" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="216.9" ty="393.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="18.2" y="-38.35"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="4" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Pierna D" symbolType="graphic" centerPoint3DX="216.9" centerPoint3DY="391.35" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="216.9" ty="393.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="18.2" y="-38.35"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="7" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Pierna D" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.363174438476563" b="-0.931716918945313" c="0.931716918945313" d="0.363174438476563" tx="280.9" ty="381.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="18.15" y="-38.35"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                        <DOMShape isDrawingObject="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="
+!4381 7007[4411 7030 4460 7090!4460 7090[4504 7144 4559 7180!4559 7180[4680 7260 4776 7273!4776 7273[4839 7282 4928 7260!4928 7260[5026 7236 5074 7237!5074 7237[5167 7239 5278 7301!5278 7301[5274 7310 5260 7318!5260 7318[5242 7328 5221
+ 7328!5221 7328[4714 7328 4497 7234!4497 7234[4346 7169 4346 7063!4346 7063[4348 7033 4381 7007"/>
+                                                  <Edge cubics="!4381 7007(;4454,7063 4460,7115 4559,7180q4381 7007Q4411 7030q4460 7090Q4504 7144q4559 7180);"/>
+                                                  <Edge cubics="!4559 7180(;4920,7419 4941,7114 5278,7301q4559 7180Q4680 7260q4776 7273Q4839 7282q4928 7260Q5026 7236q5074 7237Q5167 7239q5278 7301);"/>
+                                                  <Edge cubics="!5278 7301(;5274,7310 5253,7328 5221,7328q5278 7301Q5274 7310q5260 7318Q5242 7328q5221 7328);"/>
+                                                  <Edge cubics="!5221 7328(;4457,7328 4346,7166 4346,7063q5221 7328Q4714 7328q4497 7234Q4346 7169q4346 7063);"/>
+                                                  <Edge cubics="!4346 7063(;4346,7062 4348,7033 4381,7007q4346 7063Q4348 7033q4381 7007);"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="8" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Pierna D" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.363174438476563" b="-0.931716918945313" c="0.931716918945313" d="0.363174438476563" tx="280.9" ty="381.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="18.15" y="-38.35"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                        <DOMShape selected="true" isDrawingObject="true">
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="
+!4381 7007[4411 7030 4460 7090!4460 7090[4504 7144 4559 7180!4559 7180[4680 7260 4776 7273!4776 7273[4839 7282 4928 7260!4928 7260[5026 7236 5074 7237!5074 7237[5167 7239 5278 7301!5278 7301[5274 7310 5260 7318!5260 7318[5242 7328 5221
+ 7328!5221 7328[4714 7328 4497 7234!4497 7234[4346 7169 4346 7063!4346 7063[4348 7033 4381 7007"/>
+                                                  <Edge cubics="!4381 7007(;4454,7063 4460,7115 4559,7180q4381 7007Q4411 7030q4460 7090Q4504 7144q4559 7180);"/>
+                                                  <Edge cubics="!4559 7180(;4920,7419 4941,7114 5278,7301q4559 7180Q4680 7260q4776 7273Q4839 7282q4928 7260Q5026 7236q5074 7237Q5167 7239q5278 7301);"/>
+                                                  <Edge cubics="!5278 7301(;5274,7310 5253,7328 5221,7328q5278 7301Q5274 7310q5260 7318Q5242 7328q5221 7328);"/>
+                                                  <Edge cubics="!5221 7328(;4457,7328 4346,7166 4346,7063q5221 7328Q4714 7328q4497 7234Q4346 7169q4346 7063);"/>
+                                                  <Edge cubics="!4346 7063(;4346,7062 4348,7033 4381,7007q4346 7063Q4348 7033q4381 7007);"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Pierna D" symbolType="graphic" centerPoint3DX="248.85" centerPoint3DY="393.1" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.824493408203125" b="-0.56317138671875" c="0.56317138671875" d="0.824493408203125" tx="250.1" ty="394.9"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="18.15" y="-38.4"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="10" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Pierna D" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="216.9" ty="393.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="18.2" y="-38.35"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Hombro D" color="#FF800A" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Hombro D" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="196.65" ty="154.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="9.05" y="-54.5"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Hombro D" symbolType="graphic" centerPoint3DX="178.2" centerPoint3DY="139.6" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.783905029296875" b="0.618698120117188" c="-0.618698120117188" d="0.783905029296875" tx="178.15" ty="139.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="9.1" y="-54.5"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" duration="3" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Hombro D" symbolType="graphic" centerPoint3DX="182.8" centerPoint3DY="138.45" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.752777099609375" b="0.65826416015625" c="-0.65826416015625" d="0.752777099609375" tx="182.95" ty="138.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="9.1" y="-54.45"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Hombro D" symbolType="graphic" centerPoint3DX="185.05" centerPoint3DY="151" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.976455688476563" b="0.212493896484375" c="-0.212493896484375" d="0.976455688476563" tx="185.25" ty="151.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="9.1" y="-54.45"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="11" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Hombro D" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="196.65" ty="154.4"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="9.05" y="-54.5"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color brightness="-0.19"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Mano D" color="#009999" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 4" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="456.5" ty="308.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 4" symbolType="graphic" centerPoint3DX="314.95" centerPoint3DY="450.65" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.770156860351563" b="0.634536743164063" c="-0.634536743164063" d="0.770156860351563" tx="314.95" ty="450.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 4" symbolType="graphic" centerPoint3DX="220.2" centerPoint3DY="469.7" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.586700439453125" b="0.807861328125" c="-0.807861328125" d="0.586700439453125" tx="220.3" ty="469.75"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 4" symbolType="graphic" centerPoint3DX="177.35" centerPoint3DY="466.05" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.505401611328125" b="0.862884521484375" c="-0.862884521484375" d="0.505401611328125" tx="177.4" ty="466.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 4" symbolType="graphic" centerPoint3DX="340.4" centerPoint3DY="416.8" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.870559692382813" b="0.489151000976563" c="-0.489151000976563" d="0.870559692382813" tx="340.45" ty="417.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 4" symbolType="graphic" centerPoint3DX="359.9" centerPoint3DY="398.9" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.908981323242188" b="0.410995483398438" c="-0.410995483398438" d="0.908981323242188" tx="359.8" ty="399.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="11" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 4" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="456.5" ty="308.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Brazo D" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 5" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="368.85" ty="239.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 5" symbolType="graphic" centerPoint3DX="256.15" centerPoint3DY="324.75" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.777099609375" b="0.62689208984375" c="-0.62689208984375" d="0.777099609375" tx="256.1" ty="325.05"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="3" duration="2" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 5" selected="true" symbolType="graphic" centerPoint3DX="213.1" centerPoint3DY="345.25" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.59619140625" b="0.802841186523438" c="-0.802841186523438" d="0.59619140625" tx="213.45" ty="344.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 5" symbolType="graphic" centerPoint3DX="301.75" centerPoint3DY="302.55" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.910598754882813" b="0.408111572265625" c="-0.408111572265625" d="0.910598754882813" tx="301.65" ty="302"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="6" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 5" symbolType="graphic" centerPoint3DX="318" centerPoint3DY="294.85" loop="loop">
+                                             <matrix>
+                                                  <Matrix a="0.938385009765625" b="0.34259033203125" c="-0.34259033203125" d="0.938385009765625" tx="318.25" ty="294.35"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="11" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Interpolación 5" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="368.85" ty="239.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <swatchLists>
+          <swatchList>
+               <swatchListInfo name="Default Swatches"/>
+
+               <swatches>
+                    <swatchListInfo name="Default Swatches"/>
+
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#003300" hue="80" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#006600" hue="80" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009900" hue="80" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC00" hue="80" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF00" hue="80" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330000" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#333300" hue="40" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#336600" hue="60" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#339900" hue="67" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#33CC00" hue="70" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#33FF00" hue="72" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#660000" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663300" hue="20" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#666600" hue="40" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#669900" hue="53" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#66CC00" hue="60" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#66FF00" hue="64" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#333333" brightness="48"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000033" hue="160" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#003333" hue="120" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#006633" hue="100" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009933" hue="93" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC33" hue="90" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF33" hue="88" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330033" hue="200" saturation="239" brightness="24"/>
+                    <SolidSwatchItem color="#333333" brightness="48"/>
+                    <SolidSwatchItem color="#336633" hue="80" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#339933" hue="80" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC33" hue="80" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF33" hue="80" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660033" hue="220" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663333" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#666633" hue="40" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#669933" hue="60" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#66CC33" hue="67" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#66FF33" hue="70" saturation="239" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#666666" brightness="96"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000066" hue="160" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#003366" hue="140" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#006666" hue="120" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#009966" hue="107" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC66" hue="100" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF66" hue="96" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330066" hue="180" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#333366" hue="160" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#336666" hue="120" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#339966" hue="100" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC66" hue="93" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF66" hue="90" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660066" hue="200" saturation="239" brightness="48"/>
+                    <SolidSwatchItem color="#663366" hue="200" saturation="80" brightness="72"/>
+                    <SolidSwatchItem color="#666666" brightness="96"/>
+                    <SolidSwatchItem color="#669966" hue="80" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#66CC66" hue="80" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FF66" hue="80" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#999999" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#000099" hue="160" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#003399" hue="147" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#006699" hue="133" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#009999" hue="120" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#00CC99" hue="110" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FF99" hue="104" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#330099" hue="173" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#333399" hue="160" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#336699" hue="140" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#339999" hue="120" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#33CC99" hue="107" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FF99" hue="100" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#660099" hue="187" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#663399" hue="180" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#666699" hue="160" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#669999" hue="120" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#66CC99" hue="100" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FF99" hue="93" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#CCCCCC" brightness="192"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000CC" hue="160" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0033CC" hue="150" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0066CC" hue="140" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#0099CC" hue="130" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00CCCC" hue="120" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#00FFCC" hue="112" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3300CC" hue="170" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#3333CC" hue="160" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#3366CC" hue="147" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#3399CC" hue="133" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33CCCC" hue="120" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#33FFCC" hue="110" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6600CC" hue="180" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#6633CC" hue="173" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#6666CC" hue="160" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#6699CC" hue="140" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66CCCC" hue="120" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#66FFCC" hue="107" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FFFFFF" brightness="240"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000FF" hue="160" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0033FF" hue="152" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0066FF" hue="144" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#0099FF" hue="136" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#00CCFF" hue="128" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#00FFFF" hue="120" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3300FF" hue="168" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#3333FF" hue="160" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#3366FF" hue="150" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#3399FF" hue="140" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#33CCFF" hue="130" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#33FFFF" hue="120" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6600FF" hue="176" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#6633FF" hue="170" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#6666FF" hue="160" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#6699FF" hue="147" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#66CCFF" hue="133" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#66FFFF" hue="120" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FF0000" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990000" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993300" hue="13" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#996600" hue="27" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#999900" hue="40" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#99CC00" hue="50" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#99FF00" hue="56" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#CC0000" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3300" hue="10" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC6600" hue="20" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC9900" hue="30" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CCCC00" hue="40" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CCFF00" hue="48" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF0000" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3300" hue="8" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF6600" hue="16" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF9900" hue="24" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FFCC00" hue="32" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FFFF00" hue="40" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#00FF00" hue="80" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990033" hue="227" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993333" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996633" hue="20" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#999933" hue="40" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#99CC33" hue="53" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#99FF33" hue="60" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#CC0033" hue="230" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3333" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6633" hue="13" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC9933" hue="27" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CCCC33" hue="40" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CCFF33" hue="50" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF0033" hue="232" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3333" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6633" hue="10" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF9933" hue="20" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FFCC33" hue="30" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FFFF33" hue="40" saturation="239" brightness="144"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#0000FF" hue="160" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990066" hue="213" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993366" hue="220" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996666" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#999966" hue="40" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#99CC66" hue="60" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#99FF66" hue="67" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#CC0066" hue="220" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3366" hue="227" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6666" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC9966" hue="20" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CCCC66" hue="40" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CCFF66" hue="53" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF0066" hue="224" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3366" hue="230" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6666" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF9966" hue="13" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FFCC66" hue="27" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FFFF66" hue="40" saturation="239" brightness="168"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FFFF00" hue="40" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#990099" hue="200" saturation="239" brightness="72"/>
+                    <SolidSwatchItem color="#993399" hue="200" saturation="120" brightness="96"/>
+                    <SolidSwatchItem color="#996699" hue="200" saturation="48" brightness="120"/>
+                    <SolidSwatchItem color="#999999" brightness="144"/>
+                    <SolidSwatchItem color="#99CC99" hue="80" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99FF99" hue="80" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC0099" hue="210" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC3399" hue="213" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC6699" hue="220" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC9999" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCCC99" hue="40" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCFF99" hue="60" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FF0099" hue="216" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF3399" hue="220" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF6699" hue="227" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF9999" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCC99" hue="20" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFFF99" hue="40" saturation="239" brightness="192"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#00FFFF" hue="120" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#9900CC" hue="190" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#9933CC" hue="187" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#9966CC" hue="180" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#9999CC" hue="160" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99CCCC" hue="120" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#99FFCC" hue="100" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC00CC" hue="200" saturation="239" brightness="96"/>
+                    <SolidSwatchItem color="#CC33CC" hue="200" saturation="144" brightness="120"/>
+                    <SolidSwatchItem color="#CC66CC" hue="200" saturation="120" brightness="144"/>
+                    <SolidSwatchItem color="#CC99CC" hue="200" saturation="80" brightness="168"/>
+                    <SolidSwatchItem color="#CCCCCC" brightness="192"/>
+                    <SolidSwatchItem color="#CCFFCC" hue="80" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FF00CC" hue="208" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF33CC" hue="210" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF66CC" hue="213" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF99CC" hue="220" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCCCC" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FFFFCC" hue="40" saturation="239" brightness="216"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#FF00FF" hue="200" saturation="239" brightness="120"/>
+                    <SolidSwatchItem/>
+                    <SolidSwatchItem color="#9900FF" hue="184" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#9933FF" hue="180" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#9966FF" hue="173" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#9999FF" hue="160" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#99CCFF" hue="140" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#99FFFF" hue="120" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CC00FF" hue="192" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#CC33FF" hue="190" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#CC66FF" hue="187" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#CC99FF" hue="180" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#CCCCFF" hue="160" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#CCFFFF" hue="120" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FF00FF" hue="200" saturation="239" brightness="120"/>
+                    <SolidSwatchItem color="#FF33FF" hue="200" saturation="239" brightness="144"/>
+                    <SolidSwatchItem color="#FF66FF" hue="200" saturation="239" brightness="168"/>
+                    <SolidSwatchItem color="#FF99FF" hue="200" saturation="239" brightness="192"/>
+                    <SolidSwatchItem color="#FFCCFF" hue="200" saturation="239" brightness="216"/>
+                    <SolidSwatchItem color="#FFFFFF" brightness="240"/>
+                    <SolidSwatchItem color="#E5A974" hue="19" saturation="166" brightness="163"/>
+                    <SolidSwatchItem color="#FFA167" hue="15" saturation="239" brightness="169"/>
+                    <SolidSwatchItem color="#CE8253" hue="15" saturation="134" brightness="136"/>
+               </swatches>
+          </swatchList>
+     </swatchLists>
+     <PrinterSettings/>
+     <publishHistory/>
+</DOMDocument>
