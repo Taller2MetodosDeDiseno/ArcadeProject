@@ -7,9 +7,9 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="sprsPersonaje">
-      <sprite>sprites\sprPersD</sprite>
-      <sprite>sprites\sprPersI</sprite>
       <sprite>sprites\sprPers</sprite>
+      <sprite>sprites\sprPersAtq</sprite>
+      <sprite>sprites\sprPersDisp</sprite>
     </sprites>
     <sprite>sprites\sprBalaPers</sprite>
     <sprite>sprites\sprBalaEnem</sprite>
@@ -44,18 +44,27 @@
       <sprite>sprites\sprEnergiz</sprite>
       <sprite>sprites\sprPapitas</sprite>
     </sprites>
+    <sprite>sprites\sprProfHist</sprite>
+    <sprite>sprites\sprProfQuim</sprite>
+    <sprite>sprites\sprProfEdF</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\objInicio</object>
     <object>objects\objPers</object>
     <object>objects\objBalaPers</object>
-    <object>objects\objBalaEnem</object>
+    <objects name="objsBosses">
+      <object>objects\objProfHist</object>
+      <object>objects\objProfQuim</object>
+      <object>objects\objProfEdF</object>
+    </objects>
     <objects name="objsEnemigos">
       <object>objects\objNerd</object>
-      <object>objects\objDeport</object>
       <object>objects\objBully</object>
+      <object>objects\objDeport</object>
       <object>objects\objEnem</object>
     </objects>
     <objects name="objsCtrlEnem">
@@ -77,12 +86,24 @@
       <object>objects\objEnergiz</object>
       <object>objects\objPapitas</object>
     </objects>
+    <objects name="objsBalasEnem">
+      <object>objects\objBalaEnem</object>
+      <object>objects\objBalaBully</object>
+      <object>objects\objBalaHist</object>
+      <object>objects\objBalaNerd</object>
+      <object>objects\objBalaQuim</object>
+      <object>objects\objBalaDeport</object>
+      <object>objects\objBalaEdF</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Boss_1</room>
     <room>rooms\Inicio</room>
     <room>rooms\Nivel_1</room>
     <room>rooms\Nivel_2</room>
+    <room>rooms\Boss_2</room>
     <room>rooms\Nivel_3</room>
+    <room>rooms\Boss_3</room>
     <room>rooms\Game_Over</room>
     <room>rooms\Win</room>
   </rooms>
