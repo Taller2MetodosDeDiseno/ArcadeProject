@@ -1,0 +1,41 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Interpolación 1" itemID="580d2355-00000048" symbolType="graphic" lastModified="1477256021">
+  <timeline>
+    <DOMTimeline name="Interpolación 1">
+      <layers>
+        <DOMLayer name="Capa 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-559.7" ty="-176.95"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF6633"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!16945 5435[16945 5481 16911 5517!16911 5517[16874 5557 16820 5557!16820 5557[16741 5557 16711 5497!16711 5497[16695 5467 16695 5430!16695 5430[16695 5372 16734 5337!16734 5337[16769 5306 16820 5306!16820 5306[16871 5306 16906 5337!16906
+ 5337[16945 5373 16945 5435"/>
+                    <Edge cubics="!16945 5435(;16945,5492 16895,5557 16820,5557q16945 5435Q16945 5481q16911 5517Q16874 5557q16820 5557);"/>
+                    <Edge cubics="!16820 5557(16820,5557;16695,5557 16695,5440 16695,5430q16820 5557Q16741 5557q16711 5497Q16695 5467q16695 5430);"/>
+                    <Edge cubics="!16695 5430(;16695,5267 16945,5260 16945,5435q16695 5430Q16695 5372q16734 5337Q16769 5306q16820 5306Q16871 5306q16906 5337Q16945 5373q16945 5435);"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="Hombro Iz" selected="true" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="-226.7" ty="-34.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-32.3" y="-46.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
