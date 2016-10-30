@@ -97,9 +97,9 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Nivel_1</room>
     <room>rooms\Boss_1</room>
     <room>rooms\Inicio</room>
-    <room>rooms\Nivel_1</room>
     <room>rooms\Nivel_2</room>
     <room>rooms\Boss_2</room>
     <room>rooms\Nivel_3</room>
