@@ -11,13 +11,11 @@
         <sprite>sprites\sprPersCorrerBas</sprite>
         <sprite>sprites\sprPersCorrerMed</sprite>
         <sprite>sprites\sprPersCorrerTop</sprite>
-        <sprite>sprites\sprPersCorrerResort</sprite>
       </sprites>
       <sprites name="sprsPersQuieto">
         <sprite>sprites\sprPersQuietoBas</sprite>
         <sprite>sprites\sprPersQuietoMed</sprite>
         <sprite>sprites\sprPersQuietoTop</sprite>
-        <sprite>sprites\sprPersQuietoResort</sprite>
       </sprites>
       <sprites name="sprsPersMelee">
         <sprite>sprites\sprPersMeleeBas</sprite>
@@ -36,7 +34,6 @@
         <sprite>sprites\sprPersDefensaBas</sprite>
         <sprite>sprites\sprPersDefensaMed</sprite>
         <sprite>sprites\sprPersDefensaTop</sprite>
-        <sprite>sprites\sprPersDefensaResort</sprite>
       </sprites>
     </sprites>
     <sprites name="sprsMinions">

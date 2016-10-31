@@ -103,6 +103,37 @@ dropquality = choose(1,2,3,4,5,6,7,8,9,10);
 
 droptype = choose(1,2,3,4);
 
+
+
+sprmelee = false;
+
+
+
+sprdistancia = false;
+
+
+
+sprcorrer = false;
+
+
+
+sprmuere = false;
+
+
+
+canend = true;
+
+
+
+theend = false;
+
+
+
+doingmelee = false;
+
+
+
+doingdistancia = false;
 </string>
           </argument>
         </arguments>
@@ -161,6 +192,81 @@ show_debug_message(drop);
 show_debug_message(dropquality);
 show_debug_message(droptype);
 show_debug_message("*****");
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Medidor de Sprite Muere
+
+theend = true;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="6">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Finalización de Sprite Distancia
+
+sprdistancia = false;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="5">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Finalización de Sprite Melee
+
+sprmelee = false;
 </string>
           </argument>
         </arguments>
@@ -385,13 +491,13 @@ jugador. La alarma 0 se encarga de que tenga que esperar segundo y medio
 antes de perseguirlo nuevamente.
 */
 
-if (move)&amp;&amp;(distance_to_point(objPers.x,y) &gt; 48){
+if (move)&amp;&amp;(distance_to_point(objPers.x,y) &gt; 48)&amp;&amp;(!sprdistancia){
 move_towards_point(objPers.x,y,vel);
-image_speed = 1;
+sprcorrer = true;
 }
 else{
 speed = 0;
-image_speed = 0;
+sprcorrer = false;
     if (move){
     y = objPers.y;
     move = false;
@@ -483,7 +589,13 @@ sin salud.
 */
 
 if (hlth &lt;= 0){
-instance_destroy()
+if (canend){
+    alarm[7] = 30;
+    }
+canend = false;
+if (theend){
+    instance_destroy()
+    }
 }
 
 </string>
@@ -543,7 +655,8 @@ inmune = true;
 alarm[3] = 15;
 instance_create(x,y,objBalaNerd);
 canshoot = false;
-alarm[2] = 120
+alarm[2] = 120;
+doingdistancia = true;
 }
 
 </string>
@@ -571,9 +684,59 @@ alarm[2] = 120
 if (canhit)&amp;&amp;(inplace)&amp;&amp;(distance_to_point(objPers.x,y) &lt; 48){
 objPers.hlth = objPers.hlth - dmg;
 canhit = false;
-alarm[4] = 150
+alarm[4] = 150;
+doingmelee = true;
 }
 
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/// Cambios de Sprites
+
+if (sprcorrer){
+sprite_index = sprNerdCorrerBas;
+}
+
+if ((!sprcorrer)&amp;&amp;(!sprmelee)&amp;&amp;(!sprdistancia)&amp;&amp;(!sprmuere)){
+sprite_index = sprNerdQuietoBas;
+}
+
+if (doingmelee){
+sprmelee = true;
+alarm[5] = 25;
+sprite_index = sprNerdMeleeBas;
+doingmelee = false
+}
+
+if (doingdistancia){
+sprdistancia = true;
+alarm[6] = 10;
+sprite_index = sprNerdDistanciaBas;
+doingdistancia = false
+}
+
+if (hlth &lt;= 0){
+sprmuere = true;
+sprite_index = sprNerdMuereBas;
+}
 
 </string>
           </argument>
