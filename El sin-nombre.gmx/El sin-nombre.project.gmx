@@ -7,27 +7,119 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="sprsPersonaje">
-      <sprite>sprites\sprPers</sprite>
-      <sprite>sprites\sprPersAtq</sprite>
-      <sprite>sprites\sprPersDisp</sprite>
+      <sprites name="sprsPersCorrer">
+        <sprite>sprites\sprPersCorrerBas</sprite>
+        <sprite>sprites\sprPersCorrerMed</sprite>
+        <sprite>sprites\sprPersCorrerTop</sprite>
+        <sprite>sprites\sprPersCorrerResort</sprite>
+      </sprites>
+      <sprites name="sprsPersQuieto">
+        <sprite>sprites\sprPersQuietoBas</sprite>
+        <sprite>sprites\sprPersQuietoMed</sprite>
+        <sprite>sprites\sprPersQuietoTop</sprite>
+        <sprite>sprites\sprPersQuietoResort</sprite>
+      </sprites>
+      <sprites name="sprsPersMelee">
+        <sprite>sprites\sprPersMeleeBas</sprite>
+        <sprite>sprites\sprPersMeleeMed</sprite>
+        <sprite>sprites\sprPersMeleeTop</sprite>
+      </sprites>
+      <sprites name="sprsPersMuere">
+        <sprite>sprites\sprPersMuereBas</sprite>
+        <sprite>sprites\sprPersMuereMed</sprite>
+        <sprite>sprites\sprPersMuereTop</sprite>
+      </sprites>
+      <sprites name="sprsPersDistancia">
+        <sprite>sprites\sprPersDistancia</sprite>
+      </sprites>
+      <sprites name="sprsPersDefensa">
+        <sprite>sprites\sprPersDefensaBas</sprite>
+        <sprite>sprites\sprPersDefensaMed</sprite>
+        <sprite>sprites\sprPersDefensaTop</sprite>
+        <sprite>sprites\sprPersDefensaResort</sprite>
+      </sprites>
     </sprites>
-    <sprite>sprites\sprBalaPers</sprite>
-    <sprite>sprites\sprBalaEnem</sprite>
-    <sprites name="sprsEnemigos">
+    <sprites name="sprsMinions">
       <sprites name="sprsBully">
-        <sprite>sprites\sprBully</sprite>
-        <sprite>sprites\sprBullyAtq</sprite>
-        <sprite>sprites\sprBullyDisp</sprite>
+        <sprites name="sprsBullyCorrer">
+          <sprite>sprites\sprBullyCorrerBas</sprite>
+          <sprite>sprites\sprBullyCorrerMed</sprite>
+          <sprite>sprites\sprBullyCorrerTop</sprite>
+        </sprites>
+        <sprites name="sprsBullyQuieto">
+          <sprite>sprites\sprBullyQuietoBas</sprite>
+          <sprite>sprites\sprBullyQuietoMed</sprite>
+          <sprite>sprites\sprBullyQuietoTop</sprite>
+        </sprites>
+        <sprites name="sprsBullyMelee">
+          <sprite>sprites\sprBullyMeleeBas</sprite>
+          <sprite>sprites\sprBullyMeleeMed</sprite>
+          <sprite>sprites\sprBullyMeleeTop</sprite>
+        </sprites>
+        <sprites name="sprsBullyDistancia">
+          <sprite>sprites\sprBullyDistanciaBas</sprite>
+          <sprite>sprites\sprBullyDistanciaMed</sprite>
+          <sprite>sprites\sprBullyDistanciaTop</sprite>
+        </sprites>
+        <sprites name="sprsBullyMuere">
+          <sprite>sprites\sprBullyMuereBas</sprite>
+          <sprite>sprites\sprBullyMuereMed</sprite>
+          <sprite>sprites\sprBullyMuereTop</sprite>
+        </sprites>
       </sprites>
       <sprites name="sprsNerd">
-        <sprite>sprites\sprNerd</sprite>
-        <sprite>sprites\sprNerdAtq</sprite>
-        <sprite>sprites\sprNerdDisp</sprite>
+        <sprites name="sprsNerdCorrer">
+          <sprite>sprites\sprNerdCorrerBas</sprite>
+          <sprite>sprites\sprNerdCorrerMed</sprite>
+          <sprite>sprites\sprNerdCorrerTop</sprite>
+        </sprites>
+        <sprites name="sprsNerdQuieto">
+          <sprite>sprites\sprNerdQuietoBas</sprite>
+          <sprite>sprites\sprNerdQuietoMed</sprite>
+          <sprite>sprites\sprNerdQuietoTop</sprite>
+        </sprites>
+        <sprites name="sprsNerdMelee">
+          <sprite>sprites\sprNerdMeleeBas</sprite>
+          <sprite>sprites\sprNerdMeleeMed</sprite>
+          <sprite>sprites\sprNerdMeleeTop</sprite>
+        </sprites>
+        <sprites name="sprsNerdDistancia">
+          <sprite>sprites\sprNerdDistanciaBas</sprite>
+          <sprite>sprites\sprNerdDistanciaMed</sprite>
+          <sprite>sprites\sprNerdDistanciaTop</sprite>
+        </sprites>
+        <sprites name="sprsNerdMuere">
+          <sprite>sprites\sprNerdMuereBas</sprite>
+          <sprite>sprites\sprNerdMuereMed</sprite>
+          <sprite>sprites\sprNerdMuereTop</sprite>
+        </sprites>
       </sprites>
       <sprites name="sprsDeport">
-        <sprite>sprites\sprDeport</sprite>
-        <sprite>sprites\sprDeportAtq</sprite>
-        <sprite>sprites\sprDeportDisp</sprite>
+        <sprites name="sprsDeportCorrer">
+          <sprite>sprites\sprDeportCorrerBas</sprite>
+          <sprite>sprites\sprDeportCorrerMed</sprite>
+          <sprite>sprites\sprDeportCorrerTop</sprite>
+        </sprites>
+        <sprites name="sprsDeportQuieto">
+          <sprite>sprites\sprDeportQuietoBas</sprite>
+          <sprite>sprites\sprDeportQuietoMed</sprite>
+          <sprite>sprites\sprDeportQuietoTop</sprite>
+        </sprites>
+        <sprites name="sprsDeportMelee">
+          <sprite>sprites\sprDeportMeleeBas</sprite>
+          <sprite>sprites\sprDeportMeleeMed</sprite>
+          <sprite>sprites\sprDeportMeleeTop</sprite>
+        </sprites>
+        <sprites name="sprsDeportDistancia">
+          <sprite>sprites\sprDeportDistanciaBas</sprite>
+          <sprite>sprites\sprDeportDistanciaMed</sprite>
+          <sprite>sprites\sprDeportDistanciaTop</sprite>
+        </sprites>
+        <sprites name="sprsDeportMuere">
+          <sprite>sprites\sprDeportMuereBas</sprite>
+          <sprite>sprites\sprDeportMuereMed</sprite>
+          <sprite>sprites\sprDeportMuereTop</sprite>
+        </sprites>
       </sprites>
     </sprites>
     <sprites name="sprsArmas">
@@ -47,6 +139,10 @@
     <sprite>sprites\sprProfHist</sprite>
     <sprite>sprites\sprProfQuim</sprite>
     <sprite>sprites\sprProfEdF</sprite>
+    <sprites name="sprsBalas">
+      <sprite>sprites\sprBalaPers</sprite>
+      <sprite>sprites\sprBalaEnem</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -61,7 +157,7 @@
       <object>objects\objProfQuim</object>
       <object>objects\objProfEdF</object>
     </objects>
-    <objects name="objsEnemigos">
+    <objects name="objsMinions">
       <object>objects\objNerd</object>
       <object>objects\objBully</object>
       <object>objects\objDeport</object>
