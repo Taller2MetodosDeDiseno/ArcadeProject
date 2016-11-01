@@ -138,7 +138,25 @@
     <sprite>sprites\sprProfEdF</sprite>
     <sprites name="sprsBalas">
       <sprite>sprites\sprBalaPers</sprite>
-      <sprite>sprites\sprBalaEnem</sprite>
+      <sprites name="sprsBalasMinions">
+        <sprite>sprites\sprBalaBully</sprite>
+        <sprite>sprites\sprBalaNerd</sprite>
+        <sprite>sprites\sprBalaDeport</sprite>
+      </sprites>
+      <sprites name="sprsBalasBosses">
+        <sprites name="sprsBalasHist">
+          <sprite>sprites\sprBalaHistBad</sprite>
+          <sprite>sprites\sprBalaHistGood</sprite>
+        </sprites>
+        <sprites name="sprsBalasQuim">
+          <sprite>sprites\sprBalaQuimBad</sprite>
+          <sprite>sprites\sprBalaQuimGood</sprite>
+        </sprites>
+        <sprites name="sprsBalasEdF">
+          <sprite>sprites\sprBalaEdF</sprite>
+          <sprite>sprites\sprBalaEdFGood</sprite>
+        </sprites>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -149,49 +167,82 @@
     <object>objects\objInicio</object>
     <object>objects\objPers</object>
     <object>objects\objBalaPers</object>
-    <objects name="objsBosses">
-      <object>objects\objProfHist</object>
-      <object>objects\objProfQuim</object>
-      <object>objects\objProfEdF</object>
-    </objects>
-    <objects name="objsMinions">
-      <object>objects\objNerd</object>
-      <object>objects\objBully</object>
-      <object>objects\objDeport</object>
-      <object>objects\objEnem</object>
-    </objects>
     <objects name="objsCtrlEnem">
       <object>objects\objCtrlEnemN1</object>
       <object>objects\objCtrlEnemN2</object>
       <object>objects\objCtrlEnemN3</object>
     </objects>
-    <objects name="objsArmas">
-      <object>objects\objArmaBas</object>
-      <object>objects\objArmaMed</object>
-      <object>objects\objArmaTop</object>
-    </objects>
-    <objects name="objsShields">
-      <object>objects\objShieldBas</object>
-      <object>objects\objShieldMed</object>
-      <object>objects\objShieldTop</object>
-    </objects>
-    <objects name="objsConsumibles">
-      <object>objects\objEnergiz</object>
-      <object>objects\objPapitas</object>
-    </objects>
     <objects name="objsBalasEnem">
       <object>objects\objBalaEnem</object>
-      <object>objects\objBalaBully</object>
-      <object>objects\objBalaHist</object>
-      <object>objects\objBalaNerd</object>
-      <object>objects\objBalaQuim</object>
-      <object>objects\objBalaDeport</object>
-      <object>objects\objBalaEdF</object>
+      <objects name="objsBalasMinions">
+        <objects name="objsBalasBully">
+          <object>objects\objBalaBullyBas</object>
+          <object>objects\objBalaBullyMed</object>
+        </objects>
+        <objects name="objsBalasNerd">
+          <object>objects\objBalaNerdBas</object>
+          <object>objects\objBalaNerdMed</object>
+        </objects>
+        <objects name="objsBalasDeport">
+          <object>objects\objBalaDeportBas</object>
+          <object>objects\objBalaDeportMed</object>
+        </objects>
+      </objects>
+      <objects name="objsBalasBosses">
+        <objects name="objsBalasHist">
+          <object>objects\objBalaHistBad</object>
+          <object>objects\objBalaHistGood</object>
+        </objects>
+        <objects name="objsBalasQuim">
+          <object>objects\objBalaQuimBad</object>
+          <object>objects\objBalaQuimGood</object>
+        </objects>
+        <objects name="objsBalasEdF">
+          <object>objects\objBalaEdFBad</object>
+          <object>objects\objBalaEdFGood</object>
+        </objects>
+      </objects>
+    </objects>
+    <objects name="objsEnems">
+      <object>objects\objEnem</object>
+      <objects name="objsBosses">
+        <object>objects\objProfHist</object>
+      </objects>
+      <objects name="objsMinions">
+        <objects name="objsBullys">
+          <object>objects\objBullyBas</object>
+          <object>objects\objBullyMed</object>
+        </objects>
+        <objects name="objsNerds">
+          <object>objects\objNerdBas</object>
+          <object>objects\objNerdMed</object>
+        </objects>
+        <objects name="objsDeports">
+          <object>objects\objDeportBas</object>
+          <object>objects\objDeportMed</object>
+        </objects>
+      </objects>
+    </objects>
+    <objects name="objsDrops">
+      <objects name="objsArmas">
+        <object>objects\objArmaBas</object>
+        <object>objects\objArmaMed</object>
+        <object>objects\objArmaTop</object>
+      </objects>
+      <objects name="objsShields">
+        <object>objects\objShieldBas</object>
+        <object>objects\objShieldMed</object>
+        <object>objects\objShieldTop</object>
+      </objects>
+      <objects name="objsConsumibles">
+        <object>objects\objEnergiz</object>
+        <object>objects\objPapitas</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Nivel_1</room>
     <room>rooms\Boss_1</room>
+    <room>rooms\Nivel_1</room>
     <room>rooms\Inicio</room>
     <room>rooms\Nivel_2</room>
     <room>rooms\Boss_2</room>

@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>/// Variables Iniciales
 
-x = random_range(1340,576);
+x = 672;
 y = choose(192,288,384,480,576,672);
 
 /*
@@ -103,6 +103,26 @@ dropquality = choose(1,2,3,4,5,6,7,8,9,10);
 
 droptype = choose(1,2,3,4);
 
+
+
+check = false;
+
+
+
+goal1 = true;
+
+
+
+goal2 = false;
+
+
+
+turnon = false;
+
+
+
+turnon2 = true;
+
 </string>
           </argument>
         </arguments>
@@ -161,6 +181,34 @@ show_debug_message(drop);
 show_debug_message(dropquality);
 show_debug_message(droptype);
 show_debug_message("*****");
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="5">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+
+goal1 = false
+
+
+goal2 = true
 </string>
           </argument>
         </arguments>
@@ -295,7 +343,8 @@ La alarma 0 hace que cada instancia enemiga le dé al jugador un tiempo
 diferente para escapar verticalmente.
 */
 
-move = true;
+goal1 = true;
+goal2 = false;
 </string>
           </argument>
         </arguments>
@@ -345,57 +394,48 @@ donde debe hacer fila para atacar al jugador. Si no ha llegado le permite
 seguirse moviendo hasta que llegue a la fila.
 */
 
-if (place_meeting(x + (sign(control)*vel),y,objEnem)){
-move = false;
-goal = true;
-}
-else{
-goal = false
+if (x &gt; 504)&amp;&amp;(x &lt; 672){
+check = false;
 }
 
-/*
-El código siguiente hace que cada instancia enemiga verifique si se va 
-a encontrar con otro enemigo, o no, para saber si puede moverse. Cuando
-encuentre un espacio libre, entonces se desplazará en "y" hacia el 
-jugador.
-*/
-
-if (on)&amp;&amp;!(place_meeting(x + (sign(control)*vel),objPers.y,objEnem)){
-move = true;
-}
-else{
-move = false;
-if (on){
-    if (!goal){
-        do {
-        x = random(room_width);
-        }
-        until (!place_meeting(x,objPers.y,objEnem));
-    }
-        
-        if !(place_meeting(x,objPers.y,objEnem)){
-        y = objPers.y
-        }
-    }
+if (x = 504)&amp;&amp;(!check){
+turnon = true;
 }
 
-/*
-El código que sigue hace que, si hay espacio, el enemigo se mueva hacia el
-jugador. La alarma 0 se encarga de que tenga que esperar segundo y medio
-antes de perseguirlo nuevamente.
-*/
+if (turnon){
+alarm[0] = 150;
+turnon = false;
+check = true
+}
 
-if (move)&amp;&amp;(distance_to_point(objPers.x,y) &gt; 48){
-move_towards_point(objPers.x,y,vel);
-image_speed = 1;
+if (x = 672)&amp;&amp;(!check){
+turnon2 = true;
+}
+
+if (turnon2){
+alarm[5] = 150;
+turnon = false;
+check = true
+}
+
+
+if (!goal1)&amp;&amp;(x != 504){
+move_towards_point(504,y,vel);
 }
 else{
 speed = 0;
-image_speed = 0;
-    if (move){
-    y = objPers.y;
-    move = false;
-    alarm[0] = 45 
+if (on){
+    y = objPers.y
+    }
+}
+
+if (!goal2)&amp;&amp;(x != 672){
+move_towards_point(672,y,vel);
+}
+else{
+speed = 0;
+if (on){
+    y = objPers.y
     }
 }
 
@@ -541,7 +581,7 @@ lo suficientemente cerca del jugador.
 
 inmune = true;
 alarm[3] = 15;
-instance_create(x,y,objBalaHist);
+instance_create(x,y,objBalaHistBad);
 canshoot = false;
 alarm[2] = 30
 }
