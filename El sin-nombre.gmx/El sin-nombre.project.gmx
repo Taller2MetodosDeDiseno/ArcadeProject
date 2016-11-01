@@ -158,11 +158,29 @@
         </sprites>
       </sprites>
     </sprites>
+    <sprites name="Ambientacion">
+      <sprite>sprites\sprCasillero1</sprite>
+      <sprite>sprites\sprCasillero2</sprite>
+      <sprite>sprites\sprCasillero3</sprite>
+      <sprite>sprites\sprRepisa1</sprite>
+      <sprite>sprites\sprPuerta1</sprite>
+      <sprite>sprites\sprRepisa2</sprite>
+      <sprite>sprites\sprPuerta2</sprite>
+      <sprite>sprites\sprGraderias</sprite>
+      <sprite>sprites\sprMuro</sprite>
+      <sprite>sprites\sprBanca</sprite>
+      <sprite>sprites\sprArmario</sprite>
+      <sprite>sprites\sprVentana</sprite>
+      <sprite>sprites\sprVentana2</sprite>
+      <sprite>sprites\sprEsqueleto</sprite>
+      <sprite>sprites\sprFly</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\Piso</background>
     <background>background\Inicio_1</background>
     <background>background\Cancha</background>
+    <background>background\gameover</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -244,18 +262,43 @@
         <object>objects\objPapitas</object>
       </objects>
     </objects>
+    <objects name="Ambientacion">
+      <object>objects\objCasillero1</object>
+      <object>objects\objCasillero2</object>
+      <object>objects\objCasillero3</object>
+      <object>objects\objRepisa1</object>
+      <object>objects\objRepisa2</object>
+      <object>objects\objPuerta1</object>
+      <object>objects\objPuerta2</object>
+      <object>objects\objGraderias</object>
+      <object>objects\objMuro</object>
+      <object>objects\objBanca</object>
+      <object>objects\objArmario</object>
+      <object>objects\objVentana2</object>
+      <object>objects\objVentana</object>
+      <object>objects\objEsqueleto</object>
+      <object>objects\object50</object>
+      <object>objects\objFly</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+<<<<<<< HEAD
     <room>rooms\Nivel_1</room>
     <room>rooms\Boss_1</room>
+=======
+>>>>>>> origin/master
     <room>rooms\Inicio</room>
+    <room>rooms\room11</room>
+    <room>rooms\Level_1_1</room>
+    <room>rooms\Level_3___1</room>
+    <room>rooms\Game_Over</room>
     <room>rooms\Nivel_2</room>
     <room>rooms\Boss_2</room>
     <room>rooms\Nivel_3</room>
     <room>rooms\Boss_3</room>
-    <room>rooms\Game_Over</room>
+    <room>rooms\Boss_1</room>
+    <room>rooms\Nivel_1</room>
     <room>rooms\Win</room>
-    <room>rooms\room9</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
