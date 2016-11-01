@@ -34,20 +34,20 @@ y = choose(192,288,384,480,576,672);
 Velocidad del enemigo.
 */
 
-vel = 4;
+vel = 1.5;
 
 /*
 Daño causado por el enemigo.
 */
 
-dmg = 4;
+dmg = 20;
 
 /*
 Salud o aguante del enemigo antes de morir.
 */
 
-hlth = 40;
-healthmax = 40;
+hlth = 200;
+healthmax = 200;
 
 /*
 La variable "move" verifica si la instancia enemiga debe perseguir,
@@ -822,7 +822,7 @@ draw_self();
 
 salud = (hlth/healthmax)*100;
 
-draw_healthbar(x - 24,y - 65,x + 24,y - 55,salud,c_gray,c_red,c_green,0,true,true);
+draw_healthbar(x - 44,y - 75,x + 44,y - 55,salud,c_gray,c_red,c_green,0,true,true);
 </string>
           </argument>
         </arguments>

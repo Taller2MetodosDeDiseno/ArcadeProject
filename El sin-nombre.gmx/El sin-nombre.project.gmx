@@ -210,6 +210,8 @@
       <object>objects\objEnem</object>
       <objects name="objsBosses">
         <object>objects\objProfHist</object>
+        <object>objects\objProfQuim</object>
+        <object>objects\objProfEdF</object>
       </objects>
       <objects name="objsMinions">
         <objects name="objsBullys">
@@ -244,8 +246,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Boss_1</room>
     <room>rooms\Nivel_1</room>
+    <room>rooms\Boss_1</room>
     <room>rooms\Inicio</room>
     <room>rooms\Nivel_2</room>
     <room>rooms\Boss_2</room>
