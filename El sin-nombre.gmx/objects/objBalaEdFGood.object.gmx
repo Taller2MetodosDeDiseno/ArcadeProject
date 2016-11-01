@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>objBalaEnem</parentName>
+  <parentName>objBalaEnemGood</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -81,7 +81,7 @@ hspeed = 7.75
             <kind>1</kind>
             <string>/// Destrucción de Balas enemigas
 
-if (place_meeting(x,y,objPers)){
+if (x &lt; 0)||(x &gt; 1344){
 instance_destroy()
 }
 

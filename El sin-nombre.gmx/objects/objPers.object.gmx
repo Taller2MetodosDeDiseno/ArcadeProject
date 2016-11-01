@@ -382,6 +382,10 @@ if (place_meeting(x,y,objBalaHistBad)){
 bulletwho = 2
 }
 
+if (place_meeting(x,y,objBalaHistGood)){
+bulletwho = 2.1
+}
+
 if (place_meeting(x,y,objBalaNerdBas)){
 bulletwho = 3
 }
@@ -392,6 +396,10 @@ bulletwho = 3.1
 
 if (place_meeting(x,y,objBalaQuimBad)){
 bulletwho = 4
+}
+
+if (place_meeting(x,y,objBalaQuimGood)){
+bulletwho = 4.1
 }
 
 if (place_meeting(x,y,objBalaDeportBas)){
@@ -406,6 +414,10 @@ if (place_meeting(x,y,objBalaEdFBad)){
 bulletwho = 6
 }
 
+if (place_meeting(x,y,objBalaEdFGood)){
+bulletwho = 6.1
+}
+
 
 if (place_meeting(x,y,objBalaEnem)){
 switch (bulletwho){
@@ -418,6 +430,14 @@ switch (bulletwho){
     case 5: hlth = hlth - objDeportBas.dmg; break;
     case 5.1: hlth = hlth - objDeportMed.dmg; break;
     case 6: hlth = hlth - objProfEdF.dmg; break;
+    }
+}
+
+if (place_meeting(x,y,objBalaEnemGood))&amp;&amp;(keyboard_check(vk_space)){
+switch (bulletwho){
+    case 2.1: objBalaHistGood.hspeed = -(objBalaHistGood.hspeed); break;
+    case 4.1: objBalaQuimGood.hspeed = -(objBalaQuimGood.hspeed); break;
+    case 6.1: objBalaEdFGood.hspeed = -(objBalaEdFGood.hspeed); break;
     }
 }
 
