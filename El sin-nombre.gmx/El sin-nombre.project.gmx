@@ -207,6 +207,7 @@
       <object>objects\objEnem</object>
       <objects name="objsBosses">
         <object>objects\objProfHist</object>
+        <object>objects\OLDobjProfHist</object>
       </objects>
       <objects name="objsMinions">
         <objects name="objsBullys">

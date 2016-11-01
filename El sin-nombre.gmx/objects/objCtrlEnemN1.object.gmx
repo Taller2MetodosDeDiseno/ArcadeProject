@@ -78,10 +78,10 @@ N1O5b = false;
 
 if (N1O1a){
     for(ok = true; done = false; done = true){
-        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerdBas);
     }
     
-    if(instance_number(objNerd) = 0){
+    if(instance_number(objNerdBas) = 0){
         N1O1a = false;
         N1O1b = true
         done = false;
@@ -90,10 +90,10 @@ if (N1O1a){
 
 if (N1O1b){
     for(ok = true; done = false; done = true){
-        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerdBas);
     }
     
-    if(instance_number(objNerd) = 0){
+    if(instance_number(objNerdBas) = 0){
         N1O1b = false;
         N1O1c = true
         done = false;
@@ -102,10 +102,10 @@ if (N1O1b){
 
 if (N1O1c){
     for(ok = true; done = false; done = true){
-        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerdBas);
     }
     
-    if(instance_number(objNerd) = 0){
+    if(instance_number(objNerdBas) = 0){
         if (show_question("¡Has superado la Oleada 1!
         ¿Continúas?")){
         N1O1c = false;
@@ -119,11 +119,11 @@ if (N1O1c){
 
 if (N1O2a){
     for(ok = true; done = false; done = true){
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd)
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas)
     }
     
-    if(instance_number(objNerd) = 0){
+    if(instance_number(objNerdBas) = 0){
         N1O2a = false;
         N1O2b = true
         done = false;
@@ -132,11 +132,11 @@ if (N1O2a){
 
 if (N1O2b){
     for(ok = true; done = false; done = true){
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd)
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas)
     }
     
-    if(instance_number(objNerd) = 0){
+    if(instance_number(objNerdBas) = 0){
         N1O2b = false;
         N1O2c = true
         done = false;
@@ -145,11 +145,11 @@ if (N1O2b){
 
 if (N1O2c){
     for(ok = true; done = false; done = true){
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd)
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas)
     }
     
-    if(instance_number(objNerd) = 0){
+    if(instance_number(objNerdBas) = 0){
         N1O2c = false;
         N1O2d = true
         done = false;
@@ -158,11 +158,11 @@ if (N1O2c){
 
 if (N1O2d){
     for(ok = true; done = false; done = true){
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd)
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas)
     }
     
-    if(instance_number(objNerd) = 0){
+    if(instance_number(objNerdBas) = 0){
         if (show_question("¡Has superado la Oleada 2!
         ¿Continúas?")){
         N1O2d = false;
@@ -176,15 +176,15 @@ if (N1O2d){
 
 if (N1O3a){
     for(ok = true; done = false; done = true){
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd)
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas)
     }
     
-    if(instance_number(objNerd) = 0){
+    if(instance_number(objNerdBas) = 0){
         if (show_question("¡Has superado la Oleada 3!
         ¿Continúas?")){
         N1O3a = false;
@@ -198,12 +198,12 @@ if (N1O3a){
 
 if (N1O4a){
     for(ok = true; done = false; done = true){
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd)
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas)
     }
     
-    if(instance_number(objNerd) = 0){
+    if(instance_number(objNerdBas) = 0){
         N1O4a = false;
         N1O2b = true
         done = false;
@@ -212,13 +212,13 @@ if (N1O4a){
 
 if (N1O4b){
     for(ok = true; done = false; done = true){
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas);
     }
     
-    if(instance_number(objNerd) = 0){
+    if(instance_number(objNerdBas) = 0){
         if (show_question("¡Has superado la Oleada 4!
         ¿Continúas?")){
         N1O4b = false;
@@ -232,13 +232,13 @@ if (N1O4b){
 
 if (N1O5a){
     for(ok = true; done = false; done = true){
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd)
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas)
     }
     
-    if(instance_number(objNerd) = 0){
+    if(instance_number(objNerdBas) = 0){
         N1O5a = false;
         N1O5b = true
         done = false;
@@ -247,14 +247,14 @@ if (N1O5a){
 
 if (N1O5b){
     for(ok = true; done = false; done = true){
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd);
-        instance_create(0,0,objNerd)
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas);
+        instance_create(0,0,objNerdBas)
     }
     
-    if(instance_number(objNerd) = 0){
+    if(instance_number(objNerdBas) = 0){
         if (show_question("¡Has superado la Oleada 5!
         ¿Continúas?")){
         show_message("¡Prepárate para vértelas con El Profe!");

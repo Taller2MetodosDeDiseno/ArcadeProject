@@ -27,27 +27,27 @@
             <kind>1</kind>
             <string>/// Variables Iniciales
 
-x = random_range(1340,576);
+x = 1300;
 y = choose(192,288,384,480,576,672);
 
 /*
 Velocidad del enemigo.
 */
 
-vel = 4;
+vel = 1.5;
 
 /*
 Daño causado por el enemigo.
 */
 
-dmg = 4;
+dmg = 30;
 
 /*
 Salud o aguante del enemigo antes de morir.
 */
 
-hlth = 40;
-healthmax = 40;
+hlth = 200;
+healthmax = 200;
 
 /*
 La variable "move" verifica si la instancia enemiga debe perseguir,
@@ -67,7 +67,7 @@ La variable "delay" se encarga de que el tiempo de activación de la
 alarma 1 sea diferente para cada instancia enemiga.
 */
 
-delay = (random_range(15,60));
+delay = (random_range(5,10));
 
 /*
 La variable "canshoot" regula el número de disparos que puede hacer
@@ -105,35 +105,12 @@ droptype = choose(1,2,3,4);
 
 
 
-sprmelee = false;
+goal1 = false;
 
 
 
-sprdistancia = false;
+goal2 = true;
 
-
-
-sprcorrer = false;
-
-
-
-sprmuere = false;
-
-
-
-canend = true;
-
-
-
-theend = false;
-
-
-
-doingmelee = false;
-
-
-
-doingdistancia = false;
 </string>
           </argument>
         </arguments>
@@ -197,56 +174,6 @@ show_debug_message("*****");
         </arguments>
       </action>
     </event>
-    <event eventtype="2" enumb="7">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>/// Medidor de Sprite Muere
-
-theend = true;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="6">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>/// Finalización de Sprite Distancia
-
-sprdistancia = false;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="2" enumb="5">
       <action>
         <libid>1</libid>
@@ -264,9 +191,11 @@ sprdistancia = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Finalización de Sprite Melee
+            <string>
 
-sprmelee = false;
+goal1 = false
+
+
 </string>
           </argument>
         </arguments>
@@ -401,7 +330,7 @@ La alarma 0 hace que cada instancia enemiga le dé al jugador un tiempo
 diferente para escapar verticalmente.
 */
 
-move = true;
+goal2 = false;
 </string>
           </argument>
         </arguments>
@@ -426,15 +355,6 @@ move = true;
             <kind>1</kind>
             <string>/// Control de Movimiento
 
-if (distance_to_point(1000,y) &gt; 24){
-    for (image_xscale = -1;goal1 = true;alarm[0] = 150){
-    move_towards_point(1000,y,vel)
-    }
-}
-else{
-alarm[8] = 150;
-}
-
 /*
 La variable "control" se encarga de que la dirección de moviemnto del
 enemigo sí corresponda con la ubicación del jugador.
@@ -454,67 +374,38 @@ on = false;
 alarm[1] = delay;
 }
 
-/*
-El código siguiente verifica si la instancia enemiga ya llegó al punto
-donde debe hacer fila para atacar al jugador. Si no ha llegado le permite
-seguirse moviendo hasta que llegue a la fila.
-*/
 
-if (distance_to_point(1000,y) &lt;= 24){
+if (x = 1000){
+    if (speed != 0){
+    alarm[0] = 150
+    }
 speed = 0;
-move = false;
-goal = true;
-}
-else{
-goal = false
+goal1 = true;
 }
 
-/*
-El código siguiente hace que cada instancia enemiga verifique si se va 
-a encontrar con otro enemigo, o no, para saber si puede moverse. Cuando
-encuentre un espacio libre, entonces se desplazará en "y" hacia el 
-jugador.
-*/
-
-if (on)&amp;&amp;!(place_meeting(x + (sign(control)*vel),objPers.y,objEnem)){
-move = true;
+if (x = 1344){
+    if (speed != 0){
+    alarm[5] = 150;
+    }
+speed = 0;
+goal2 = true;
 }
-else{
-move = false;
+
+if (!goal1){
+do {move_towards_point(1000,y,vel)
+    }
+until (x = 1000)
+}
+
+if (!goal2){
+do {move_towards_point(1344,y,vel)
+    }
+until (x = 1344)
+}
+
 if (on){
-    if (!goal){
-        do {
-        x = random(room_width);
-        }
-        until (!place_meeting(x,objPers.y,objEnem));
+    y = objPers.y
     }
-        
-        if !(place_meeting(x,objPers.y,objEnem)){
-        y = objPers.y
-        }
-    }
-}
-
-/*
-El código que sigue hace que, si hay espacio, el enemigo se mueva hacia el
-jugador. La alarma 0 se encarga de que tenga que esperar segundo y medio
-antes de perseguirlo nuevamente.
-*/
-
-if (move)&amp;&amp;(distance_to_point(1000,y) &gt; 24)&amp;&amp;(!sprdistancia){
-move_towards_point(1000,y,vel);
-sprcorrer = true;
-}
-else{
-speed = 0;
-sprcorrer = false;
-    if (move){
-    y = objPers.y;
-    x = random_range(1000,1300)
-    move = false;
-    alarm[0] = 45 
-    }
-}
 
 /*
 El código siguiente cambia horizontalmente la dirección del sprite de la
@@ -600,13 +491,7 @@ sin salud.
 */
 
 if (hlth &lt;= 0){
-if (canend){
-    alarm[7] = 30;
-    }
-canend = false;
-if (theend){
-    instance_destroy()
-    }
+instance_destroy()
 }
 
 </string>
@@ -666,8 +551,7 @@ inmune = true;
 alarm[3] = 15;
 instance_create(x,y,objBalaHistBad);
 canshoot = false;
-alarm[2] = 120;
-doingdistancia = true;
+alarm[2] = 30
 }
 
 </string>
@@ -695,59 +579,9 @@ doingdistancia = true;
 if (canhit)&amp;&amp;(inplace)&amp;&amp;(distance_to_point(objPers.x,y) &lt; 48){
 objPers.hlth = objPers.hlth - dmg;
 canhit = false;
-alarm[4] = 150;
-doingmelee = true;
+alarm[4] = 60
 }
 
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>/// Cambios de Sprites
-
-if (sprcorrer){
-sprite_index = sprNerdCorrerBas;
-}
-
-if ((!sprcorrer)&amp;&amp;(!sprmelee)&amp;&amp;(!sprdistancia)&amp;&amp;(!sprmuere)){
-sprite_index = sprNerdQuietoBas;
-}
-
-if (doingmelee){
-sprmelee = true;
-alarm[5] = 25;
-sprite_index = sprNerdMeleeBas;
-doingmelee = false
-}
-
-if (doingdistancia){
-sprdistancia = true;
-alarm[6] = 10;
-sprite_index = sprNerdDistanciaBas;
-doingdistancia = false
-}
-
-if (hlth &lt;= 0){
-sprmuere = true;
-sprite_index = sprNerdMuereBas;
-}
 
 </string>
           </argument>
@@ -798,7 +632,7 @@ draw_self();
 
 salud = (hlth/healthmax)*100;
 
-draw_healthbar(x - 24,y - 65,x + 24,y - 55,salud,c_gray,c_red,c_green,0,true,true);
+draw_healthbar(x - 50,y - 75,x + 50,y - 55,salud,c_gray,c_red,c_green,0,true,true);
 </string>
           </argument>
         </arguments>
