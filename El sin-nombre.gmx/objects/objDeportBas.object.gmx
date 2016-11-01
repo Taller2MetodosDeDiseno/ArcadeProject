@@ -653,7 +653,7 @@ lo suficientemente cerca del jugador.
 
 inmune = true;
 alarm[3] = 15;
-instance_create(x,y,objBalaDeportBas);
+instance_create(x,y,objBalaNerd);
 canshoot = false;
 alarm[2] = 120;
 doingdistancia = true;

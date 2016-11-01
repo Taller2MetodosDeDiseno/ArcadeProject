@@ -228,8 +228,6 @@
       <object>objects\objEnem</object>
       <objects name="objsBosses">
         <object>objects\objProfHist</object>
-        <object>objects\objProfQuim</object>
-        <object>objects\objProfEdF</object>
       </objects>
       <objects name="objsMinions">
         <objects name="objsBullys">
@@ -282,18 +280,11 @@
     </objects>
   </objects>
   <rooms name="rooms">
-<<<<<<< HEAD
-    <room>rooms\Nivel_1</room>
-    <room>rooms\Boss_1</room>
-=======
->>>>>>> origin/master
     <room>rooms\Inicio</room>
+    <room>rooms\room11</room>
     <room>rooms\Level_1_1</room>
-    <room>rooms\Boss_Level_1</room>
-    <room>rooms\Boss_Level_3</room>
     <room>rooms\Level_3___1</room>
     <room>rooms\Game_Over</room>
-    <room>rooms\Bonus_Room</room>
     <room>rooms\Nivel_2</room>
     <room>rooms\Boss_2</room>
     <room>rooms\Nivel_3</room>
